@@ -1,0 +1,10 @@
+import numpy as np
+print(np.char.lower(['APPLE','ORANGE']))
+print(np.char.lower(['MANGO']))
+print(np.char.upper(['apple']))
+print(np.char.upper(["banana","orange"]))
+print(np.char.split('my name is affan'))
+print(np.char.split(' affan,s khan',sep=","))
+print(np.char.join('-','papaya'))
+print(np.char.join(':','mango'))
+print(np.char.join('|','mango'))

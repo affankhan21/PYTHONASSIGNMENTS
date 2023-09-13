@@ -1,0 +1,13 @@
+import numpy as np
+a=np.array(42)
+print(a)
+print("the given array is",a.ndim,"dimensional")
+b=np.array([10,20,30])
+print(b)
+print("the given array is",b.ndim,"dimensional")
+c=np.array([[10,20,30],[40,50,60]])
+print(c)
+print("the given array is",c.ndim,"dimensional")
+d=np.array([[[1,2,3],[4,5,6]],[[1,2,3],[4,5,6]]])
+print(d)
+print("the given array is",d.ndim,"dimensional")
